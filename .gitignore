@@ -2,3 +2,5 @@
 /model/bert_sentiment_model/
 /model/logs/
 /model/results/
+
+/frontend/node_modules/
