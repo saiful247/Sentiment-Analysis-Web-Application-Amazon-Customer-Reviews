@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sentiment Analysis</title>
+        <script src="app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="heading-container">
+            <h1 class="main-heading">Amazon Customer Review Sentiment Analysis</h1>
+        </div>
+        <form class="form">
+            <h2>Enter The Review</h2>
+            <input type= "text" class="review" id="uiText" name="uiText" value="I Love This Product">
+        </form>
+        <button class="submit" onclick="onClickPredictSentiment()" type="button">Predict Sentiment</button>
+        <div id="uiPredictedSentiment" class="result">
+            <h2></h2>
+        </div>
+    </body>
+</html>
