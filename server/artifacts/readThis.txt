@@ -1,0 +1,2 @@
+In this folder create a folder named bert_sentiment_model. then export the model here
+cant push to git : file size too large
